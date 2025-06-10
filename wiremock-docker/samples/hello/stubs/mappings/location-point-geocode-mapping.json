@@ -1,0 +1,30 @@
+{
+    "priority": 1,
+    "request": {
+      "method": "GET",
+      "urlPath": "/v3/location/point",
+      "queryParameters": {
+        "format": {
+          "equalTo": "json"
+        },
+        "language": {
+          "equalTo": "en-US"
+        },
+        "geocode": {
+          "equalTo": "34.0833000000000013,74.8332999999999942"
+        },
+        "apiKey": {
+          "equalTo": "fffffffffff"
+        }
+      }
+    },
+    "response": {
+      "status": 200,
+      "jsonBody": {
+        "message": "boom"
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }

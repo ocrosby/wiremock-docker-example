@@ -1,0 +1,10 @@
+{
+    "priority": 2,
+    "request": {
+      "method": "GET",
+      "urlPath": "/v3/location/point"
+    },
+    "response": {
+      "proxyBaseUrl": "https://qaapi.weather.com/v3/location/point"
+    }
+  }
