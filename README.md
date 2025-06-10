@@ -28,4 +28,20 @@ You should receive the following response:
 
 **Hello, WireMock!**
 
+## Useful Terminal Commands
+
+List process bound to port 8080
+
+```shell
+lsof -t -i :8080
+```
+
+After finding the PID, you can stop it:
+
+```shell
+kill -9 1234
+```
+
+This would kill the process identified by the PID 1234.
+
 
